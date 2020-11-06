@@ -1057,12 +1057,12 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  color: black;
+  color: white;
 }
 
 .services .icon-box:hover {
   background: white;
-  border-color: #ffe600;
+  border-color: white;
 }
 
 .services .icon-box:hover .icon {
@@ -1070,11 +1070,11 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #ffe600;
+  color:red;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #ffe600;
+  background: red;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -1692,14 +1692,14 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
-  color: #ffe600;
+  color: black;
   font-size: 14px;
   background: #f1f7fd;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: black;
+  background: white;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
 
@@ -1720,13 +1720,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #ffe600;
+  color: black;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #ffe600;
+  color: black;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1743,7 +1743,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffe600;
+  color: black;
   font-size: 18px;
   line-height: 1;
 }
@@ -1759,7 +1759,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ffe600;
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1767,7 +1767,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #ffe600;
+  color: black;
 }
 
 #footer .footer-newsletter {
@@ -1777,7 +1777,7 @@ section {
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #ffe600;
+  color:black;
   position: relative;
   padding-bottom: 12px;
 }
