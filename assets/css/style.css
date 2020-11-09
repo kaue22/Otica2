@@ -1699,7 +1699,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: white;
+  background: red;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
 
@@ -1720,13 +1720,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: black;
+  color: white;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: black;
+  color: white;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1743,7 +1743,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: black;
+  color: white;
   font-size: 18px;
   line-height: 1;
 }
@@ -1759,7 +1759,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: black;
+  color: white;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1767,7 +1767,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #footer .footer-newsletter {
@@ -1777,7 +1777,7 @@ section {
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color:black;
+  color:white;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1826,8 +1826,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ffe600;
-  color: #fff;
+  background: white;
+  color: black;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1842,4 +1842,21 @@ section {
   background: #ffe600;
   color: #fff;
   text-decoration: none;
+}
+.footerh3 {
+  color:#fff;
+}
+.footerP{
+  color:#fff;
+}
+
+
+.teste{
+  padding: 0px 0;
+  background: black;
+}
+
+
+.copyright{
+  color:white;
 }
