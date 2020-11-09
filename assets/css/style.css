@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #ffe600;
+  color: white;
 }
 
 a {
@@ -801,7 +801,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #ffe600;
+  color: white;
   margin-bottom: 15px;
 }
 
@@ -843,12 +843,12 @@ section {
 }
 
 .about .icon-box .title a {
-  color: #343a40;
+  color: white;
   transition: 0.3s;
 }
 
 .about .icon-box .title a:hover {
-  color: #ffe600;
+  color: white;
 }
 
 .about .icon-box .description {
