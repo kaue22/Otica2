@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffe600;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .modal-content {
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #header .logo a {
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #gallery {
-  background: black;
+  background: white;
 }
 
 #contact {
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #DF0209;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 5px 2px;
   border-bottom: 2px solid #fff;
 }
@@ -551,7 +551,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -625,7 +625,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: white;
+  color: black;
 }
 
 .section-title h2::before {
@@ -645,13 +645,14 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #ffe600;
+  background: black;
   bottom: 0;
   left: calc(50% - 20px);
 }
 
 .section-title p {
   margin-bottom: 0;
+  color: black;
 }
 
 @media (max-width: 992px) {
@@ -996,7 +997,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
@@ -1070,7 +1071,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color:red;
+  color: red;
 }
 
 .services .icon-box:hover .icon::before {
@@ -1370,7 +1371,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1719,7 +1720,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -1777,7 +1778,7 @@ section {
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color:white;
+  color: white;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1843,20 +1844,20 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
 .footerh3 {
-  color:#fff;
-}
-.footerP{
-  color:#fff;
+  color: #fff;
 }
 
+.footerP {
+  color: #fff;
+}
 
-.teste{
+.teste {
   padding: 0px 0;
   background: black;
 }
 
-
-.copyright{
-  color:white;
+.copyright {
+  color: white;
 }
