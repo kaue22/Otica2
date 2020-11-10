@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .modal-content {
-  background-color: #DF0209;
+  background-color: #ED3237;
 }
 
 #relative {
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+  height: 1px;
 }
 
 /*--------------------------------------------------------------
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid RED;
+  border: 6px solid #ED3237;
   border-top-color: #d1e6f9;
   border-radius: 50%;
   width: 60px;
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 #topbar {
-  background: #DF0209;
+  background: #ED3237;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #DF0209;
+  color: #ED3237;
   transition: 0.3s;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -1033,7 +1033,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: red;
+  background: #ED3237;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -1055,7 +1055,7 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: red;
+  background: #ED3237;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   transform: translateZ(-1px);
@@ -1088,11 +1088,11 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: red;
+  color: #ED3237;
 }
 
 .services .icon-box:hover .icon::before {
-  background: red;
+  background: #ED3237;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -1122,7 +1122,7 @@ section {
 
 .appointment .php-email-form .validate {
   display: none;
-  color: red;
+  color: #ED3237;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1560,7 +1560,7 @@ section {
 
 .contact .info {
   width: 100%;
-  background: #DF0209;
+  background: #ED3237;
 }
 
 .contact .info i {
@@ -1603,7 +1603,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #DF0209;
+  background: #ED3237;
 }
 
 .contact .php-email-form .form-group {
@@ -1612,7 +1612,7 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color: #ED3237;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1717,7 +1717,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: red;
+  background: #ED3237;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
 
