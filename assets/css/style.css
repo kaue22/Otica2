@@ -31,6 +31,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #DF0209;
 }
 
+#relative {
+  background: white;
+  height: 575px;
+  width: 800px;
+  position: relative;
+  top: -593px;
+  left: 550px;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
