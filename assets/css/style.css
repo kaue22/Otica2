@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 1px;
+  
 }
 
 /*--------------------------------------------------------------
@@ -642,7 +642,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: black;
+  color: white;
 }
 
 .section-title h2::before {
@@ -1096,7 +1096,7 @@ section {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 992px) {
@@ -1218,7 +1218,7 @@ section {
   border: 0;
   padding: 12px 15px 12px 0;
   transition: 0.3s;
-  color: #ffe600;
+  color: red;
   border-radius: 0;
   border-right: 2px solid #ebf1f6;
   font-weight: 600;
@@ -1230,7 +1230,7 @@ section {
 }
 
 .departments .nav-link.active {
-  color: #ffe600;
+  color: red;
   border-color: #ffe600;
 }
 
@@ -1243,11 +1243,11 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ffe600;
+  color: white;
 }
 
 .departments .details p {
-  color: #ffe600;
+  color: white;
 }
 
 .departments .details p:last-child {
