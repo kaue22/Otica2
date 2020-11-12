@@ -272,14 +272,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 1300px;
     width: 100vw;
   }
-  .section-title {}
+  #doctors .section-title {
+    height: 115px;
+  }
+  #doctors .section-title h2 {
+    top:16px;
+  }
   #left {
     float: left;
     width: 350px;
   }
   #container {
     width: 119vh;
-    height: 205vh;
+    height: 175vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -298,6 +303,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
     position: relative;
     color: black;
+  }
+  .departments .details h3{
+    
   }
 }
 
