@@ -258,9 +258,27 @@ align-items: center
   #doctors {
     background-attachment: fixed;
     height: 1000px;
+    width: 100vw;
+  }
+  #left{
+    float:left;
+    width: 350px;
+  }
+  #container{
+    width: 119vh;
+  height: 205vh;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+  }
+  #relative{
+    background: white;
+   
   }
   #imgcenter{
-
+    
   }
 }
 
