@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 632px;
   width: 914px;
   position: relative;
-  top: -593px;
+  top: -645px;
   left: 550px;
 }
 
@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 /*--------------------------------------------------------------
@@ -127,8 +126,6 @@ h1, h2, h3, h4, h5, h6 {
 .datepicker-dropdown {
   padding: 20px !important;
 }
-
-
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -233,7 +230,9 @@ h1, h2, h3, h4, h5, h6 {
 #services {
   background: black;
 }
-
+#services .section-title h2{
+  color:white;
+}
 #departments {
   /* background:#ED3237;*/
   background: black;
@@ -245,41 +244,61 @@ h1, h2, h3, h4, h5, h6 {
   height: 800px;
 }
 
-#container{
-  width: 54vw;
-height: 205vh;
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center
+#container {
+  width: 50vw;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
+
 @media (max-width: 992px) {
+  #testimonials {
+    background-attachment: fixed;
+    height: 425px;
+    width: 100vw;
+  }
+  #testimonials .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: black;
+  }
   #doctors {
     background-attachment: fixed;
     height: 1300px;
     width: 100vw;
   }
-  #left{
-    float:left;
+  .section-title {}
+  #left {
+    float: left;
     width: 350px;
   }
-  #container{
+  #container {
     width: 119vh;
-  height: 205vh;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    height: 205vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
-  #relative{
+  #relative {
     background: white;
-    left :10px;
+    left: 10px;
     width: 0px;
-    top:0px;
+    top: 0px;
   }
-
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: black;
+  }
 }
 
 #testimonials {
@@ -681,7 +700,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: white;
+  color: black;
 }
 
 .section-title h2::before {
@@ -1247,6 +1266,9 @@ section {
 
 .departments {
   overflow: hidden;
+}
+.departments .section-title h2{
+  color:white;
 }
 
 .departments .nav-tabs {
