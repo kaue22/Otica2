@@ -1102,7 +1102,7 @@ section {
 @media (max-width: 992px) {
   .services .icon-box {
     text-align: center;
-    border: 1px solid #ffe600;
+    border: 1px solid white;
     padding: 80px 80px;
     transition: all ease-in-out 0.3s;
   }
@@ -1260,8 +1260,8 @@ section {
     padding: 15px;
   }
   .departments .nav-link.active {
-    color: #fff;
-    background: #ffe600;
+    color: red;
+    border-color: #ffe600;
   }
 }
 
