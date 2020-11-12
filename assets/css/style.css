@@ -241,6 +241,11 @@ h1, h2, h3, h4, h5, h6 {
   background: black;
 }
 
+#departments .section-title p {
+  /* background:#ED3237;*/
+  color: white;
+}
+
 #doctors {
   /* background: black;*/
   background: #ED3237;
