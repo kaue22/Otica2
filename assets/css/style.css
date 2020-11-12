@@ -922,7 +922,7 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: black;
+  color: white;
   font-size: 32px;
 }
 
@@ -932,7 +932,7 @@ section {
 }
 
 .about .icon-box:hover .icon i {
-  color: #fff;
+  color: black;
 }
 
 .about .icon-box .title {
