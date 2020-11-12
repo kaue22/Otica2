@@ -230,12 +230,15 @@ h1, h2, h3, h4, h5, h6 {
 #services {
   background: black;
 }
-#services .section-title h2{
-  color:white;
+
+#services .section-title h2 {
+  color: white;
 }
-#services .section-title p{
-  color:white;
+
+#services .section-title p {
+  color: white;
 }
+
 #departments {
   /* background:#ED3237;*/
   background: black;
@@ -254,7 +257,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #container {
   width: 50vw;
-  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -284,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 115px;
   }
   #doctors .section-title h2 {
-    top:16px;
+    top: 16px;
   }
   #left {
     float: left;
@@ -312,13 +314,10 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     color: black;
   }
-  .departments .details h3{
-
+  .departments .details h3 {}
+  .services .section-title p {
+    color: white;
   }
-  .services .section-title p{
-    color:white;
-  }
-
 }
 
 #testimonials {
@@ -387,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #ED3237;
+  color: white;
   transition: 0.3s;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -559,6 +558,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
   color: white;
   text-decoration: none;
+  border-color:red;
 }
 
 .mobile-nav .drop-down>a:after {
@@ -610,6 +610,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
+  border-color: red;
 }
 
 /*--------------------------------------------------------------
@@ -1107,10 +1108,6 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-
-
-
-
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -1291,8 +1288,9 @@ section {
 .departments {
   overflow: hidden;
 }
-.departments .section-title h2{
-  color:white;
+
+.departments .section-title h2 {
+  color: white;
 }
 
 .departments .nav-tabs {
@@ -1964,7 +1962,6 @@ section {
   color: white;
 }
 
-
 /* Animação */
 
 [data-anime] {
@@ -1988,4 +1985,3 @@ section {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
-
