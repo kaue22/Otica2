@@ -318,8 +318,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
-  color: #f9fd10;
-  border-color: #f9fd10;
+  color: white;
+  border-color: red;
 }
 
 .nav-menu .drop-down ul {
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #ffe600;
+  color: white;
 }
 
 .mobile-nav {
@@ -472,14 +472,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #ffe600;
+  color: white;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
-  color: #ffe600;
+  color: white;
   text-decoration: none;
 }
 
@@ -833,19 +833,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #8dc2f1;
+  border: 2px solid white;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #ffe600;
+  color: black;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #ffe600;
-  border-color: #ffe600;
+  background: white;
+  border-color: white;
 }
 
 .about .icon-box:hover .icon i {
