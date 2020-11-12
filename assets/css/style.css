@@ -1102,6 +1102,10 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
+
+
+
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -1979,3 +1983,23 @@ section {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
+
+
+/*.citacao, .atributos {
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.citacao p {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+*/
