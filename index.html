@@ -86,11 +86,16 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container">
 
 
 
-    </div>
+      <img class="mySlides" src="assets/img/banner/slide-gabyoptica-2137x1403.png">
+      <img class="mySlides" src="assets/img/banner/slide-gabyoptica2-1909-733.png">
+      <img class="mySlides" src="assets/img/banner/slide-gabyoptica3.png">
+
+
+      <source srcset="assets/img/banner/slide-gabyoptica.png" class="img-fluid">
+
   </section><!-- End Hero -->
 
   <main id="main">
@@ -106,8 +111,8 @@
 
         <div class="row">
           <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch">
-             <a href="https://www.youtube.com/watch?v=LQ-CMhg1J38&feature=youtu.be" class="venobox play-btn mb-4" data-vbtype="video"
-              data-autoplay="true"></a>
+            <a href="https://www.youtube.com/watch?v=LQ-CMhg1J38&feature=youtu.be" class="venobox play-btn mb-4"
+              data-vbtype="video" data-autoplay="true"></a>
           </div>
 
           <div
@@ -169,7 +174,8 @@
      
         -->
         <picture>
-            <source srcset="assets/img/29min-responsivo.png" class="img-fluid" media="(max-width: 800px)"  data-target="#modalCond">       
+          <source srcset="assets/img/29min-responsivo.png" class="img-fluid" media="(max-width: 800px)"
+            data-target="#modalCond">
           <source srcset="assets/img/29min.png" class="img-fluid" media="(max-width: 1400px)" data-toggle="modal"
             data-target="#modalCond">
 
@@ -819,7 +825,23 @@
     });
   </script>
 
+  <script type="text/javascript">
 
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) { slideIndex = 1 }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+  </script>
 
 </body>
 
