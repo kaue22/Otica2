@@ -46,6 +46,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -50px;
+  margin-left: -16px;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -705,7 +713,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 section {
-  padding: 40px 0;
+  padding: 47px 0;
   overflow: hidden;
 }
 
@@ -960,7 +968,7 @@ section {
 .about .video-box {
   background: url("../img/tumb-video-gabyptica.png") center center no-repeat;
   background-size: cover;
-  min-height: 500px;
+  height: 520px;
 }
 
 .about .play-btn {
