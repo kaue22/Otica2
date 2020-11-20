@@ -212,69 +212,73 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
-        <blockquote class="citacao col-wide" data-anime="right">
-          <div class="section-title">
-            <h2>Services</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-              sit
-              in iste officiis commodi quidem hic quas.</p>
-          </div>
-        </blockquote>
+        <h1 class="title">Testes da agencia Negro</h1>
+        </a>
+        <h2 class="subtitle">para
+          <svg class="heart" viewBox="0 0 32 29.6" width="10" fill="#ec2e2e">
+            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+              c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+          </svg>
+          GabyOptica</h2>
         <div class="row">
 
 
 
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><i class="icofont-heart-beat"></i></div>
-              <h4><a href="">Lentes</a></h4>
-              <p>Nada merece mais atenção do que a lente!</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="icofont-drug"></i></div>
-              <h4><a href="">Armação</a></h4>
-              <p>Óculos espelha quem você é e sua personalidade.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="icofont-dna-alt-2"></i></div>
-              <h4><a href="">Lentes de Contato</a></h4>
-              <p>Temos uma linha completa de produtos para a saúde ocular</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="icofont-heartbeat"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
 
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="icofont-disabled"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
 
+          <section class="gallery">
+            <article class="item">
+              <div class="image"></div>
+              <div class="description">
+                <span class="top">Lentes</span>
+                <span class="mid">Nada merece mais atenção do que a lente!</span>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="icofont-autism"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-            </div>
-          </div>
+              </div>
+            </article>
+
+            <article class="item">
+              <div class="image"></div>
+              <div class="description">
+                <span class="top">Armação</span>
+                <span class="mid">Óculos espelha quem você é e sua personalidade.</span>
+              </div>
+            </article>
+
+            <article class="item">
+              <div class="image"></div>
+              <div class="description">
+                <span class="top">Lentes de Contato</span>
+                <span class="mid">Temos uma linha completa de produtos para a saúde ocular</span>
+              </div>
+            </article>
+
+            <article class="item">
+              <div class="image"></div>
+              <div class="description">
+                <span class="top"></span>
+                <span class="mid"></span>
+              </div>
+            </article>
+
+            <article class="item">
+              <div class="image"></div>
+              <div class="description">
+                <span class="top"></span>
+                <span class="mid"></span>
+              </div>
+            </article>
+
+            <article class="item">
+              <div class="image"></div>
+              <div class="description">
+                <span class="top"></span>
+                <span class="mid"></span>
+              </div>
+            </article>
+
+          </section>
 
         </div>
 
@@ -842,7 +846,53 @@
       setTimeout(carousel, 3500); // Change image every 2 seconds
     }
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+  <script>
+    const items = document.querySelectorAll('.item');
+    const title = document.querySelector('.title');
+    const subtitle = document.querySelector('.subtitle');
 
+
+    // buttons
+
+
+    const tl = new TimelineMax({ paused: false });
+    console.log(items);
+    tl
+      .from(title, .5, {
+        x: 500,
+        opacity: 0
+      })
+      .from(subtitle, .5, {
+        x: -500,
+        opacity: 0
+      })
+
+      .staggerFrom(items, .5, {
+        scale: 0,
+        opacity: 0
+      }, .3);
+
+    fast.addEventListener('click', function () {
+      tl.timeScale(5);
+      tl.play();
+    });
+
+    slow.addEventListener('click', function () {
+      tl.timeScale(1 / 10);
+      tl.play();
+    });
+
+    normal.addEventListener('click', function () {
+      tl.timeScale(1);
+      tl.play();
+    });
+
+    restart.addEventListener('click', function () {
+      tl.restart();
+    });
+
+  </script>
 </body>
 
 </html>
