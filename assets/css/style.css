@@ -53,10 +53,23 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   margin-right: -50px;
   margin-left: -16px;
+  height: 634px;
+}
+
+
+.rowAbout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -50px;
+  margin-left: -16px;
+  height: 634px;
 }
 
 .mySlides {
   width: 100%;
+  padding-top: 4rem;
 }
 
 /*--------------------------------------------------------------
@@ -258,6 +271,7 @@ h1, h2, h3, h4, h5, h6 {
   /* background:#ED3237;*/
   background: black;
   padding: 30px 0;
+  height: 500px;
 }
 
 #departments .section-title p {
@@ -563,7 +577,7 @@ h1, h2, h3, h4, h5, h6 {
   /* background: url("../img/img_bg_5.jpg") top center;*/
   background-size: cover;
   position: relative;
-  margin-bottom: 0px;
+  margin-bottom: -15px;
 }
 
 #hero .container {
@@ -766,9 +780,9 @@ section {
 --------------------------------------------------------------*/
 
 .about .icon-boxes h4 {
-  font-size: 18px;
-  color: #ffe600;
-  margin-bottom: 15px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
 }
 
 .about .icon-boxes h3 {
@@ -808,12 +822,7 @@ section {
   color: black;
 }
 
-.about .icon-box .title {
-  margin-left: 85px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
+.about .icon-box .title {}
 
 .about .icon-box .title a {
   color: white;
@@ -825,7 +834,7 @@ section {
 }
 
 .about .icon-box .description {
-  margin-left: 85px;
+  margin-left: 66px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -1491,11 +1500,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffe600;
+  color: black;
   float: left;
   width: 44px;
   height: 44px;
-  background: #d6e9fa;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1508,14 +1517,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #ffe600;
+  color: white;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #ffe600;
+  color: white;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -1523,7 +1532,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #ffe600;
+  background: white;
   color: #fff;
 }
 
@@ -1899,7 +1908,7 @@ body {
   margin: 40px 15px;
   padding: 10px;
   width: 30%;
-  box-shadow: #CC9F04 1px 1px, #CC9F04 2px 2px, #CC9F04 3px 3px, #CC9F04 4px 4px, #CC9F04 5px 5px, #CC9F04 6px 6px, #CC9F04 7px 7px, #CC9F04 8px 8px, #CC9F04 9px 9px, #CC9F04 10px 10px, #CC9F04 11px 11px, #CC9F04 12px 12px, #CC9F04 13px 13px, #CC9F04 14px 14px, #CC9F04 15px 15px, #CC9F04 16px 16px, #CC9F04 17px 17px, #CC9F04 18px 18px, #CC9F04 19px 19px, rgba(1, 163, 164, .1) 20px 20px, rgba(1, 163, 164, .09) 21px 21px, rgba(1, 163, 164, .09) 22px 22px, rgba(1, 163, 164, .08) 23px 23px, rgba(1, 163, 164, .08) 24px 24px, rgba(1, 163, 164, .07) 25px 25px, rgba(1, 163, 164, .07) 26px 26px, rgba(1, 163, 164, .06) 27px 27px, rgba(1, 163, 164, .05) 28px 28px, rgba(1, 163, 164, .04) 29px 29px, rgba(1, 163, 164, .04) 30px 30px, rgba(1, 163, 164, .03) 31px 31px, rgba(1, 163, 164, .03) 32px 32px, rgba(1, 163, 164, .03) 33px 33px, rgba(1, 163, 164, .02) 34px 34px, rgba(1, 163, 164, .02) 35px 35px, rgba(1, 163, 164, .02) 36px 36px, rgba(1, 163, 164, .01) 37px 37px, rgba(1, 163, 164, .01) 38px 38px, rgba(1, 163, 164, 0) 39px 39px;
+  box-shadow: #CC9F04 1px 1px, #CC9F04 2px 2px, #CC9F04 3px 3px, #CC9F04 4px 4px, #CC9F04 5px 5px, #CC9F04 6px 6px, #CC9F04 7px 7px, #CC9F04 8px 8px, #CC9F04 9px 9px, #CC9F04 10px 10px, #CC9F04 11px 11px, #CC9F04 12px 12px, #CC9F04 13px 13px, #CC9F04 14px 14px;
 }
 
 .item a {
@@ -1923,7 +1932,7 @@ body {
 .description {
   display: block;
   width: 100%;
-  height: 110px;
+  height: 70px;
 }
 
 .description span top {
@@ -1958,12 +1967,17 @@ button {
   color: red;
 }
 
+.owl-carousel .owl-item img {
+  display: block;
+  width: 50%;
+}
+
 .title {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 3px;
   position: relative;
 }
 
@@ -2081,7 +2095,7 @@ button {
     margin: 40px 15px;
     padding: 10px;
     width: 100%;
-    box-shadow: #CC9F04 1px 1px, #CC9F04 2px 2px, #CC9F04 3px 3px, #CC9F04 4px 4px, #CC9F04 5px 5px, #CC9F04 6px 6px, #CC9F04 7px 7px, #CC9F04 8px 8px, #CC9F04 9px 9px, #CC9F04 10px 10px, #CC9F04 11px 11px, #CC9F04 12px 12px, #CC9F04 13px 13px, #CC9F04 14px 14px, #CC9F04 15px 15px, #CC9F04 16px 16px, #CC9F04 17px 17px, #CC9F04 18px 18px, #CC9F04 19px 19px, rgba(1, 163, 164, .1) 20px 20px, rgba(1, 163, 164, .09) 21px 21px, rgba(1, 163, 164, .09) 22px 22px, rgba(1, 163, 164, .08) 23px 23px, rgba(1, 163, 164, .08) 24px 24px, rgba(1, 163, 164, .07) 25px 25px, rgba(1, 163, 164, .07) 26px 26px, rgba(1, 163, 164, .06) 27px 27px, rgba(1, 163, 164, .05) 28px 28px, rgba(1, 163, 164, .04) 29px 29px, rgba(1, 163, 164, .04) 30px 30px, rgba(1, 163, 164, .03) 31px 31px, rgba(1, 163, 164, .03) 32px 32px, rgba(1, 163, 164, .03) 33px 33px, rgba(1, 163, 164, .02) 34px 34px, rgba(1, 163, 164, .02) 35px 35px, rgba(1, 163, 164, .02) 36px 36px, rgba(1, 163, 164, .01) 37px 37px, rgba(1, 163, 164, .01) 38px 38px, rgba(1, 163, 164, 0) 39px 39px;
+    box-shadow: #CC9F04 1px 1px, #CC9F04 2px 2px, #CC9F04 3px 3px, #CC9F04 4px 4px, #CC9F04 5px 5px, #CC9F04 6px 6px, #CC9F04 7px 7px, #CC9F04 8px 8px, #CC9F04 9px 9px, #CC9F04 10px 10px, #CC9F04 11px 11px, #CC9F04 12px 12px, #CC9F04 13px 13px, #CC9F04 14px 14px, #CC9F04 15px 15px, #CC9F04 16px 16px, #CC9F04 17px 17px, #CC9F04 18px 18px, #CC9F04 19px 19px,#CC9F04 20px 20px, #CC9F04 21px 21px, #CC9F04 22px 22px, #CC9F04 23px 23px, #CC9F04 24px 24px,#CC9F04 25px 25px, #CC9F04 26px 26px, #CC9F04 27px 27px, rgba(1, 163, 164, .05) 28px 28px, rgba(1, 163, 164, .04) 29px 29px, #CC9F04 30px 30px, #CC9F04 31px 31px, #CC9F04 32px 32px, #CC9F04 33px 33px, #CC9F04 34px 34px, #CC9F04 35px 35px, #CC9F04 36px 36px, #CC9F04 37px 37px, #CC9F04 38px 38px, #CC9F04 39px 39px;
   }
 }
 
