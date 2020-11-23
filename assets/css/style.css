@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #services {
-  background:black;
+  background: black;
   padding: 30px 0;
 }
 
@@ -280,7 +280,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center
 }
 
-
 #testimonials {
   background: white;
   padding: 40px 0;
@@ -315,8 +314,6 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
   left: 1000px;
 }
-
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -440,8 +437,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #ffe600;
   color: #fff;
 }
-
-
 
 /* Mobile Navigation */
 
@@ -609,8 +604,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #ffe600;
 }
 
-
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -666,8 +659,6 @@ section {
   color: black;
 }
 
-
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -679,15 +670,11 @@ section {
   margin-top: 120px;
 }
 
-
-
 .breadcrumbs h2 {
   font-size: 24px;
   font-weight: 300;
   margin: 0;
 }
-
-
 
 .breadcrumbs ol {
   display: flex;
@@ -708,8 +695,6 @@ section {
   color: #6c757d;
   content: "/";
 }
-
-
 
 /*--------------------------------------------------------------
 # Why Us
@@ -856,9 +841,6 @@ section {
   background-size: cover;
   height: 520px;
 }
-
-
-
 
 .about .play-btn {
   width: 94px;
@@ -1079,8 +1061,6 @@ section {
   color: black;
 }
 
-
-
 /*--------------------------------------------------------------
 # Appointments
 --------------------------------------------------------------*/
@@ -1230,8 +1210,6 @@ section {
 .departments .details p:last-child {
   margin-bottom: 0;
 }
-
-
 
 /*--------------------------------------------------------------
 # Doctors
@@ -1404,7 +1382,6 @@ section {
   display: none;
 }
 
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1484,8 +1461,6 @@ section {
 .testimonials .owl-dot.active {
   background-color: #ffe600 !important;
 }
-
-
 
 /*--------------------------------------------------------------
 # Gallery
@@ -1902,9 +1877,7 @@ body {
   transform: rotateY(180deg);
 }
 
-
 /*TESTE*/
-
 
 .gallery {
   display: flex;
@@ -1926,45 +1899,7 @@ body {
   margin: 20px 15px;
   padding: 10px;
   width: 30%;
-  box-shadow:#CC9F04 1px 1px,
-  #CC9F04 2px 2px,
-  #CC9F04 3px 3px,
-  #CC9F04 4px 4px,
-  #CC9F04 5px 5px,
-  #CC9F04 6px 6px,
-  #CC9F04 7px 7px,
-  #CC9F04 8px 8px,
-  #CC9F04 9px 9px,
-  #CC9F04 10px 10px,
-  #CC9F04 11px 11px,
-  #CC9F04 12px 12px,
-  #CC9F04 13px 13px,
-  #CC9F04 14px 14px,
-  #CC9F04 15px 15px,
-  #CC9F04 16px 16px,
-  #CC9F04 17px 17px,
-  #CC9F04 18px 18px,
-  #CC9F04 19px 19px,
-  rgba(1, 163, 164, .1) 20px 20px,
-  rgba(1, 163, 164, .09) 21px 21px,
-  rgba(1, 163, 164, .09) 22px 22px,
-  rgba(1, 163, 164, .08) 23px 23px,
-  rgba(1, 163, 164, .08) 24px 24px,
-  rgba(1, 163, 164, .07) 25px 25px,
-  rgba(1, 163, 164, .07) 26px 26px,
-  rgba(1, 163, 164, .06) 27px 27px,
-  rgba(1, 163, 164, .05) 28px 28px,
-  rgba(1, 163, 164, .04) 29px 29px,
-  rgba(1, 163, 164, .04) 30px 30px,
-  rgba(1, 163, 164, .03) 31px 31px,
-  rgba(1, 163, 164, .03) 32px 32px,
-  rgba(1, 163, 164, .03) 33px 33px,
-  rgba(1, 163, 164, .02) 34px 34px,
-  rgba(1, 163, 164, .02) 35px 35px,
-  rgba(1, 163, 164, .02) 36px 36px,
-  rgba(1, 163, 164, .01) 37px 37px,
-  rgba(1, 163, 164, .01) 38px 38px,
-  rgba(1, 163, 164, 0) 39px 39px;
+  box-shadow: #CC9F04 1px 1px, #CC9F04 2px 2px, #CC9F04 3px 3px, #CC9F04 4px 4px, #CC9F04 5px 5px, #CC9F04 6px 6px, #CC9F04 7px 7px, #CC9F04 8px 8px, #CC9F04 9px 9px, #CC9F04 10px 10px, #CC9F04 11px 11px, #CC9F04 12px 12px, #CC9F04 13px 13px, #CC9F04 14px 14px, #CC9F04 15px 15px, #CC9F04 16px 16px, #CC9F04 17px 17px, #CC9F04 18px 18px, #CC9F04 19px 19px, rgba(1, 163, 164, .1) 20px 20px, rgba(1, 163, 164, .09) 21px 21px, rgba(1, 163, 164, .09) 22px 22px, rgba(1, 163, 164, .08) 23px 23px, rgba(1, 163, 164, .08) 24px 24px, rgba(1, 163, 164, .07) 25px 25px, rgba(1, 163, 164, .07) 26px 26px, rgba(1, 163, 164, .06) 27px 27px, rgba(1, 163, 164, .05) 28px 28px, rgba(1, 163, 164, .04) 29px 29px, rgba(1, 163, 164, .04) 30px 30px, rgba(1, 163, 164, .03) 31px 31px, rgba(1, 163, 164, .03) 32px 32px, rgba(1, 163, 164, .03) 33px 33px, rgba(1, 163, 164, .02) 34px 34px, rgba(1, 163, 164, .02) 35px 35px, rgba(1, 163, 164, .02) 36px 36px, rgba(1, 163, 164, .01) 37px 37px, rgba(1, 163, 164, .01) 38px 38px, rgba(1, 163, 164, 0) 39px 39px;
 }
 
 .item a {
@@ -1991,10 +1926,8 @@ body {
   height: 60px;
 }
 
-
-
-.description span top{
-  color:black;
+.description span top {
+  color: black;
 }
 
 .description span:last-child {
@@ -2016,45 +1949,39 @@ button {
   height: 1px;
 }
 
-.mid{
+.mid {
   background-color: #eee;
   display: block;
   height: 65px;
   width: 100%;
   margin-bottom: 5px;
-  color:red;
+  color: red;
 }
-
 
 /*Media*/
 
-
 @media (max-width: 767px) {
   header {
-      padding: 30px 10px;
+    padding: 30px 10px;
   }
   .title {
-      font-size: 2.5em;
+    font-size: 2.5em;
   }
   .gallery {
-      width: 100%;
+    width: 100%;
   }
-
   .item {
-      width: 80%;
+    width: 80%;
   }
-
   .controls {
-      text-align: center;
+    text-align: center;
   }
-
   button {
-      font-size: 16px;
-      margin: 15px 0;
-      padding: 5px;
+    font-size: 16px;
+    margin: 15px 0;
+    padding: 5px;
   }
 }
-
 
 @media (max-width: 992px) {
   #testimonials {
@@ -2112,159 +2039,162 @@ button {
     color: white;
   }
 }
-@media (max-width: 992px) {
- .container {
-  width: 80%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  }
 
 @media (max-width: 992px) {
-  #header {
-    top: 0;
-  }
-  #header .logo {
-    font-size: 28px;
-  }
-}
-
-
-
-@media (max-width: 1366px) {
-  .nav-menu .drop-down .drop-down ul {
-    left: -90%;
-  }
-  .nav-menu .drop-down .drop-down:hover>ul {
-    left: -100%;
-  }
-  .nav-menu .drop-down .drop-down>a:after {
-    content: "\ea9d";
-  }
-}
-
-
-@media (max-width: 768px) {
-  .appointment-btn {
-    margin: 0 48px 0 0;
-    padding: 6px 18px;
-  }
-}
-
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 992px) {
-  #hero {
-    margin-bottom: 0;
-    height: auto;
-  }
-  #hero .container {
-    padding-bottom: 63px;
-  }
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-height: 500px) {
-  #hero {
-    height: auto;
-    padding: 0px 0;
-  }
-}
-
-@media (max-width: 992px) {
-  section {
-    padding: 5px 0;
-    overflow: hidden;
-  }
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 63px;
-  }
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-
-@media (max-width: 992px){
-  .about .video-box {
-    background: url("../img/tumb-video-gabyptica.png") center center no-repeat;
-    background-size: cover;
-    height: 300px;
-  }
-}
-
-
-@media (max-width: 992px) {
-  .services .icon-box {
+  .opticaAbout {
+    width: 350px;
     text-align: center;
-    border: 1px solid white;
-    padding: 80px 80px;
-    transition: all ease-in-out 0.3s;
   }
-
+  .about .icon-boxes h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 992px) {
-  .departments .nav-link {
-    border: 0;
-    padding: 15px;
+  .container {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
-  .departments .nav-link.active {
-    color: red;
-    border-color: #ffe600;
+  @media (max-width: 992px) {
+    #header {
+      top: 0;
+    }
+    #header .logo {
+      font-size: 28px;
+    }
   }
-}
-
-
-
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
+  @media (max-width: 992px) {
+    .about .icon-box .description {
+      margin-left: 85px;
+      line-height: 24px;
+      font-size: 14px;
+    }
+    .description {
+      display: block;
+      width: 100%;
+      height: 60px;
+    }
   }
-}
-
-@media (max-width: 767px) {
-  .testimonials .testimonial-wrap {
-    padding-left: 0;
+  @media (max-width: 1366px) {
+    .nav-menu .drop-down .drop-down ul {
+      left: -90%;
+    }
+    .nav-menu .drop-down .drop-down:hover>ul {
+      left: -100%;
+    }
+    .nav-menu .drop-down .drop-down>a:after {
+      content: "\ea9d";
+    }
   }
-  .testimonials .testimonial-item {
-    padding: 30px;
-    margin: 15px;
+  @media (max-width: 768px) {
+    .appointment-btn {
+      margin: 0 48px 0 0;
+      padding: 6px 18px;
+    }
   }
-  .testimonials .testimonial-item .testimonial-img {
-    position: static;
-    left: auto;
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 992px) {
+    #hero {
+      margin-bottom: 0;
+      height: auto;
+    }
+    #hero .container {
+      padding-bottom: 63px;
+    }
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-height: 500px) {
+    #hero {
+      height: auto;
+      padding: 0px 0;
+    }
+  }
+  @media (max-width: 992px) {
+    section {
+      padding: 5px 0;
+      overflow: hidden;
+    }
+  }
+  @media (max-width: 992px) {
+    .breadcrumbs {
+      margin-top: 63px;
+    }
+  }
+  @media (max-width: 992px) {
+    .breadcrumbs h2 {
+      margin: 0 0 10px 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .breadcrumbs .d-flex {
+      display: block !important;
+    }
+    .breadcrumbs ol {
+      display: block;
+    }
+    .breadcrumbs ol li {
+      display: inline-block;
+    }
+  }
+  @media (max-width: 992px) {
+    .about .video-box {
+      background: url("../img/tumb-video-gabyptica.png") center center no-repeat;
+      background-size: cover;
+      height: 300px;
+    }
+  }
+  @media (max-width: 992px) {
+    .services .icon-box {
+      text-align: center;
+      border: 1px solid white;
+      padding: 80px 80px;
+      transition: all ease-in-out 0.3s;
+    }
+  }
+  @media (max-width: 992px) {
+    .departments .nav-link {
+      border: 0;
+      padding: 15px;
+    }
+    .departments .nav-link.active {
+      color: red;
+      border-color: #ffe600;
+    }
+  }
+  @media (max-width: 1200px) {
+    .faq .faq-list {
+      padding: 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .testimonials .testimonial-wrap {
+      padding-left: 0;
+    }
+    .testimonials .testimonial-item {
+      padding: 30px;
+      margin: 15px;
+    }
+    .testimonials .testimonial-item .testimonial-img {
+      position: static;
+      left: auto;
+    }
   }
 }
