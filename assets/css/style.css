@@ -284,14 +284,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #departments {
   /* background:#ED3237;*/
-  background: black;
+  background: white;
   padding: 30px 0;
   height: 500px;
 }
 
 #departments .section-title p {
   /* background:#ED3237;*/
-  color: white;
+  color: black;
 }
 
 #doctors {
@@ -1219,7 +1219,13 @@ section {
 }
 
 .departments .section-title h2 {
-  color: white;
+  color: red;
+}
+.testimonials .section-title h2 {
+  color: red;
+}
+.gallery .section-title h2 {
+  color: red;
 }
 
 .contact .section-title h2 {
@@ -1236,18 +1242,18 @@ section {
   transition: 0.3s;
   color: red;
   border-radius: 0;
-  border-right: 2px solid #ebf1f6;
+  border-right: 5px solid black;
   font-weight: 600;
   font-size: 15px;
 }
 
 .departments .nav-link:hover {
-  color: #ffe600;
+  color: black;
 }
 
 .departments .nav-link.active {
   color: red;
-  border-color: #ffe600;
+  border-color: red;
 }
 
 .departments .tab-pane.active {
@@ -1259,11 +1265,11 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: white;
+  color: red;
 }
 
 .departments .details p {
-  color: white;
+  color: black;
 }
 
 .departments .details p:last-child {
@@ -1976,8 +1982,7 @@ body {
 .image {
   width: 90px;
   height: 90px;
-  background-color: #dedcdc;
-  border: 10px solid #f3f2f2;
+
   border-radius: 100%;
 }
 
