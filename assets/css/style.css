@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, h6 {
 .modal-content {
   background-color: #ED3237;
 }
+.opticaAbout {
+  width: 850px;
+  text-align: center;
+}
+
+
 
 #relative {
   background: white;
@@ -1629,16 +1635,17 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ffe600;
+  background: white;
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: red;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffe600;
+  /*background: red;*/
+  color:black;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1780,14 +1787,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffe600;
+  background: black;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #ffe600;
+  background: red;
 }
 
 #footer .credits {
