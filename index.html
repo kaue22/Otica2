@@ -846,20 +846,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
   <script>
     const items = document.querySelectorAll('.item');
-    $(document).ready(var $target = $('.item'),
-    
-
-    // buttons
-   tl
-      .staggerFrom(items, .5, {
-        scale: 0,
-        opacity: 0
-      }, .3);
-
 
     const tl = new TimelineMax({ paused: false });
-    console.log(items);
-    
+ 
+    var documentTop = $(document).scrollTop();
+    console.log("documentTop")
+    console.log(documentTop);
     tl
       .staggerFrom(items, .5, {
         scale: 0,
