@@ -689,7 +689,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  color: black;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -1551,8 +1551,8 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: white;
-  color: #fff;
+  background: #ED3237;
+  color: black;
 }
 
 .contact .php-email-form {
