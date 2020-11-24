@@ -2075,6 +2075,15 @@ button {
     margin-left: auto;
     height: 1050px;
   }
+  .rowAbout {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -50px;
+    margin-left: -16px;
+    height: 1300px;
+}
 }
 
 @media (max-width: 992px) {
