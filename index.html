@@ -106,47 +106,47 @@
               data-vbtype="video" data-autoplay="true"></a>
           </div>
           <div
-      class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-      <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
-        <blockquote class="citacao col-wide" data-anime="left">
-          <h3>GabyÓptica</h3>
-        </blockquote>
-        <p class="opticaAbout">
+            class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
 
-          A Gaby Óptica, tem o compromisso com qualidade, por isso trabalha com os melhores fornecedores do
-          mercado.
+              <h3>GabyÓptica</h3>
 
-          Aqui você encontra as melhores lentes e armações, com qualidade, preço baixo e é claro, facilidade no
-          pagamento.
+              <p class="opticaAbout">
 
-          Porque escolher a Gaby Óptica?
+                A Gaby Óptica, tem o compromisso com qualidade, por isso trabalha com os melhores fornecedores do
+                mercado.
 
-          A Gaby se mantém constantemente atualizada, acompanhando a evolução tecnológica do mercado ótico.
+                Aqui você encontra as melhores lentes e armações, com qualidade, preço baixo e é claro, facilidade no
+                pagamento.
 
-          Somos referência na região por ótimo atendimento, e por preço justo.
+                Porque escolher a Gaby Óptica?
 
-          Venha conferir as melhores ofertas, aceitamos cartões de crédito.
-        </p>
-      </div>
-      <div class="icon-box">
-        <div class="icon"><i class="bx bx-fingerprint"></i></div>
-        <h4 class="title_a">Responsábilidade</a></h4>
-        <p class="description">Responsável técnico sempre presente e consultores altamente capacitados.</p>
-      </div>
+                A Gaby se mantém constantemente atualizada, acompanhando a evolução tecnológica do mercado ótico.
 
-      <div class="icon-box">
-        <div class="icon"><i class="bx bx-gift"></i></div>
-        <h4 class="title_a">Ambiente</a></h4>
-        <p class="description">Ambiente moderno e climatizado, mais conforto no atendimento.</p>
-      </div>
+                Somos referência na região por ótimo atendimento, e por preço justo.
 
-      <div class="icon-box">
-        <div class="icon"><i class="bx bx-atom"></i></div>
-        <h4 class="title_a">Produto</a></h4>
-        <p class="description">Todos os produtos de qualidade com certificado de garantia de 1 ano.</p>
-      </div>
+                Venha conferir as melhores ofertas, aceitamos cartões de crédito.
+              </p>
+            </div>
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title_a">Responsábilidade</a></h4>
+              <p class="description">Responsável técnico sempre presente e consultores altamente capacitados.</p>
+            </div>
 
-    </div>
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title_a">Ambiente</a></h4>
+              <p class="description">Ambiente moderno e climatizado, mais conforto no atendimento.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-atom"></i></div>
+              <h4 class="title_a">Produto</a></h4>
+              <p class="description">Todos os produtos de qualidade com certificado de garantia de 1 ano.</p>
+            </div>
+
+          </div>
         </div>
       </div>
     </section><!-- End About Section -->
@@ -174,7 +174,7 @@
           <img srcset="assets/img/29min.png" class="img-fluid" data-toggle="modal" data-target="#modalCond"
             alt="Imagem de banner do site">
         </picture>
-        img class="mySlides"
+
         <!-- Modal -->
         <div class="modal fade" id="modalCond" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
           aria-hidden="true">
@@ -207,7 +207,12 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
-        <h1 class="title">Testes da agencia Negro</h1>
+        <div class="section-title">
+          <blockquote class="citacao col-wide" data-anime="left">
+
+            <h2>Qualidade</h2>
+          </blockquote>
+        </div>
         </a>
 
         <div class="row">
@@ -412,8 +417,9 @@
       <div class="containerDoc">
 
         <div class="section-title">
-          <h2>Gaby Óptica Techlab</h2>
-
+          <blockquote class="citacao col-wide" data-anime="left">
+            <h2>Gaby Óptica Techlab</h2>
+          </blockquote>
         </div>
 
         <div class="row">
@@ -462,7 +468,9 @@
     <section id="testimonials" class="testimonials">
       <div class="container">
         <div class="section-title">
+          <blockquote class="citacao col-wide" data-anime="right">
           <h2>Parceiros</h2>
+          </blockquote>
           <p>Nossos parceiros</p>
         </div>
 
@@ -831,10 +839,10 @@
       setTimeout(carousel, 3500); // Change image every 2 seconds
     }
   </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
   <script>
     const items = document.querySelectorAll('.item');
-    const title = document.querySelector('.title');
 
 
 
@@ -843,13 +851,8 @@
 
     const tl = new TimelineMax({ paused: false });
     console.log(items);
+
     tl
-      .from(title, .5, {
-        x: 500,
-        opacity: 0
-      })
-
-
       .staggerFrom(items, .5, {
         scale: 0,
         opacity: 0
