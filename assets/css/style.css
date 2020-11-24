@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .opticaAbout {
   width: 850px;
-  text-align: center;
+  
 }
 
 
@@ -807,7 +807,7 @@ section {
 .about .icon-boxes h4 {
   font-size: 20px;
   color: white;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .about .icon-boxes h3 {
@@ -841,6 +841,7 @@ section {
 .about .icon-box:hover .icon {
   background: white;
   border-color: white;
+  margin-left: 50px;
 }
 
 .about .icon-box:hover .icon i {
@@ -1965,7 +1966,7 @@ body {
 .description_initial {
   display: block;
   width: 100%;
-  height: 110px;
+  height: 70px;
   
 }
 
