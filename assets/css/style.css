@@ -662,13 +662,32 @@ section {
   color: white;
 }
 
+.section-title-serv{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: black;
+  margin-top: 30px;
+}
+.section-title-dep{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: black;
+  margin-top: 30px;
+}
+
 .section-title h2 {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: white;
+  color: black;
   margin-top: 30px;
 }
 
@@ -1200,6 +1219,10 @@ section {
 }
 
 .departments .section-title h2 {
+  color: white;
+}
+
+.contact .section-title h2 {
   color: white;
 }
 
