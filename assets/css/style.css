@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  height: 1050px;
+  height: 1002px;
 }
 
 /*--------------------------------------------------------------
@@ -668,7 +668,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: black;
+  color: white;
+  margin-top: 30px;
 }
 
 .section-title h2::before {

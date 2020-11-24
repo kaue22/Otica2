@@ -848,14 +848,17 @@
   <script>
     const items = document.querySelectorAll('.item');
 
-
-
     // buttons
+   tl
+      .staggerFrom(items, .5, {
+        scale: 0,
+        opacity: 0
+      }, .3);
 
 
     const tl = new TimelineMax({ paused: false });
     console.log(items);
-
+    
     tl
       .staggerFrom(items, .5, {
         scale: 0,
