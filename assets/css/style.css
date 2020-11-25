@@ -2165,14 +2165,15 @@ button {
     background: #ED3237;
     padding: 0px 0;
     height: 1470px;
-    margin-top:-3270px;
+    
     
   }
   #gallery {
     background: white;
     padding: 0px 0;
-    height: 6800px;
+    height: 3575px;
     margin-left: 0px;
+    
   }
   .section-titleGallery {
     text-align: center;
@@ -2210,7 +2211,7 @@ button {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    height: 1050px;
+    margin-top: 2798px;
   }
   .rowAbout {
     display: -ms-flexbox;
