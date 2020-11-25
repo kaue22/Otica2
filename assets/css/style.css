@@ -608,6 +608,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.section-titleGallery {
+  text-align: center;
+  padding-bottom: 120px;
+  color: red;
+}
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -660,10 +665,6 @@ section {
   padding-bottom: 30px;
   color: white;
 }
-
-
-
-
 
 .section-title-serv {
   font-size: 50px;
@@ -839,6 +840,7 @@ section {
   font-weight: 700;
   color: white;
   margin-bottom: 15px;
+  margin-left: 30px;
 }
 
 .about .icon-box {
@@ -2062,7 +2064,6 @@ button {
 }
 
 .boxTechLab {
-  
   height: 750px;
   width: calc(149% / 3);
   box-sizing: border-box;
@@ -2071,6 +2072,7 @@ button {
 #esquerda {
   background-color: #ED3237;
 }
+
 #direita {
   background-color: white;
 }
@@ -2100,6 +2102,7 @@ button {
   }
   .gallery {
     width: 100%;
+    margin-left: -20px;
   }
   .item {
     width: 80%;
@@ -2115,6 +2118,14 @@ button {
 }
 
 @media (max-width: 992px) {
+  .boxTechLab {
+    height: 1070px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #esquerda {
+    background-color: #ED3237;
+  }
   .opticaGaby {
     width: 320px;
     text-align: center;
@@ -2158,12 +2169,19 @@ button {
   #gallery {
     background: white;
     padding: 0px 0;
-    height: 550px;
+    height: 760px;
+    margin-left: 0px;
+  }
+  .section-titleGallery {
+    text-align: center;
+    padding-bottom: 120px;
+    color: white;
   }
   #about {
     background: black;
     background: #ED3237;
     padding: 0px 0;
+    height: 1430px;
   }
   .gallery .gallery-item:hover img {
     transform: scale(1.1);
@@ -2226,7 +2244,7 @@ button {
   }
   #techlab {
     background-attachment: fixed;
-    height: 1440px;
+    height: 1900px;
     width: 100vw;
   }
   #techlab .section-title {
@@ -2264,13 +2282,58 @@ button {
   .services .section-title p {
     color: white;
   }
+  .opticaGabytext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+  }
+  .opticaGabyB {
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 70px;
+  }
 }
 
 @media (max-width: 992px) {
+  .about .icon-box .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .about .icon-box {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+    margin-left: 135px;
+  }
+  .title_a {
+    margin-right: 163px;
+  }
+  .about .icon-boxes h4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 22px;
+    text-align: center;
+    margin-left: -41px;
+  }
+  .description_initial {
+    display: block;
+    width: 90%;
+    height: 70px;
+    margin-left: -78px;
+  }
   .opticaAbout {
     width: 350px;
     text-align: center;
-    margin-left: 16px;
+    margin-left: 15px;
   }
   .about .icon-boxes h3 {
     font-size: 50px;
