@@ -292,10 +292,10 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
-#doctors {
+#techlab {
   /* background: black;*/
-  background: #ED3237;
-  height: 760px;
+  background: white;
+  height: 980px;
   padding: 30px 0;
 }
 
@@ -659,6 +659,10 @@ section {
   padding-bottom: 30px;
   color: white;
 }
+
+
+
+
 
 .section-title-serv {
   font-size: 50px;
@@ -1278,46 +1282,46 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Doctors
+# techlab
 --------------------------------------------------------------*/
 
-.doctors {
+.techlab {
   background: #fff;
 }
 
-.doctors .member {
+.techlab .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
 
-.doctors .member .pic {
+.techlab .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
 
-.doctors .member .pic img {
+.techlab .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.doctors .member:hover img {
+.techlab .member:hover img {
   transform: scale(1.1);
 }
 
-.doctors .member .member-info {
+.techlab .member .member-info {
   padding-left: 30px;
 }
 
-.doctors .member h4 {
+.techlab .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #ffe600;
 }
 
-.doctors .member span {
+.techlab .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1325,7 +1329,7 @@ section {
   font-weight: 500;
 }
 
-.doctors .member span::after {
+.techlab .member span::after {
   content: '';
   position: absolute;
   display: block;
@@ -1336,19 +1340,19 @@ section {
   left: 0;
 }
 
-.doctors .member p {
+.techlab .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .member .social {
+.techlab .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.doctors .member .social a {
+.techlab .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1359,17 +1363,17 @@ section {
   background: #a0bcd5;
 }
 
-.doctors .member .social a i {
+.techlab .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.doctors .member .social a:hover {
+.techlab .member .social a:hover {
   background: #ffe600;
 }
 
-.doctors .member .social a+a {
+.techlab .member .social a+a {
   margin-left: 8px;
 }
 
@@ -2046,6 +2050,48 @@ button {
   position: relative;
 }
 
+.containerTechlab {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  /* alinha o último item a esquerda */
+  justify-content: flex-end;
+}
+
+.boxTechLab {
+  
+  height: 750px;
+  width: calc(149% / 3);
+  box-sizing: border-box;
+}
+
+#esquerda {
+  background-color: red;
+}
+
+.opticaGabyA {
+  width: 415px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.opticaGabyB {
+  width: 320px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.opticaGabytext {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 642px;
+}
+
 /*Media*/
 
 @media (max-width: 767px) {
@@ -2181,15 +2227,15 @@ button {
     position: relative;
     color: black;
   }
-  #doctors {
+  #techlab {
     background-attachment: fixed;
     height: 1440px;
     width: 100vw;
   }
-  #doctors .section-title {
+  #techlab .section-title {
     height: 115px;
   }
-  #doctors .section-title h2 {
+  #techlab .section-title h2 {
     top: 16px;
   }
   #left {
@@ -2245,7 +2291,7 @@ button {
 }
 
 @media (max-width: 992px) {
-  #doctors .section-title {
+  #techlab .section-title {
     height: 230px;
   }
 }
