@@ -2314,13 +2314,13 @@ button {
     transition: 0.5s;
   }
   .about .icon-box {
-    margin-top: 20px;
+    margin-top: 19px;
     text-align: center;
-    height: 200px;
-    margin-left: 160px;
+    height: 193px;
+    margin-left: 150px;
   }
   .title_a {
-    margin-right: 163px;
+    margin-right: 135px;
   }
   .about .icon-boxes h4 {
     font-size: 20px;
