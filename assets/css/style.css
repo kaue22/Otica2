@@ -846,7 +846,7 @@ section {
 .about .icon-box {
   margin-top: 0px;
 }
-
+/*
 .about .icon-box .icon {
   float: left;
   display: flex;
@@ -858,7 +858,7 @@ section {
   border-radius: 50px;
   transition: 0.5s;
 }
-
+*/
 .about .icon-box .icon i {
   color: white;
   font-size: 32px;
