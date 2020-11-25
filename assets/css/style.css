@@ -2325,7 +2325,7 @@ button {
   .about .icon-box {
     margin-top: 19px;
     text-align: center;
-    height: 193px;
+    height: 215px;
     margin-left: 175px;
   }
   .title_a {
@@ -2336,7 +2336,7 @@ button {
     color: white;
     margin-bottom: 22px;
     text-align: center;
-    margin-left: -60px;
+    margin-left: -75px;
   }
   .description_initial {
     display: block;
@@ -2367,10 +2367,10 @@ button {
     margin-left: -20px;
   }
   #iconB{
-    margin-left: 152px;
+    margin-left: -20px;
   }
   #iconC{
-    margin-left: 150px;
+    margin-left: -20px;
   }
 }
 
