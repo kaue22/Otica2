@@ -2236,12 +2236,12 @@ button {
     width: 100vw;
   }
   #testimonials .section-title h2 {
-    font-size: 32px;
+    font-size: 46px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: black;
+    color: red;
   }
   #techlab {
     background-attachment: fixed;
@@ -2298,6 +2298,10 @@ button {
 }
 
 @media (max-width: 992px) {
+
+  #local{
+    left:-15px;
+  }
   .about .icon-box .icon {
     float: left;
     display: flex;
