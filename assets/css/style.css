@@ -2144,11 +2144,9 @@ button {
     top: 20px;
     box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
   }
-  #hero {
-    height: 388px;
-  }
+
   .mySlides {
-    width: 180%;
+    width: 100%;
   }
   #services {
     background: black;
@@ -2437,8 +2435,8 @@ button {
     #hero {
       margin-bottom: 0;
       height: auto;
-      height: 332px;
-      margin-top: -10px;
+      height: 213px;
+      margin-top: -9px;
     }
     #hero .container {
       padding-bottom: 63px;
