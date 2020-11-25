@@ -2072,10 +2072,14 @@ button {
 }
 
 @media (max-width: 992px) {
-  .mobile-nav-toggle{
-    top:2px;
+  .opticaGaby {
+    width: 320px;
+    text-align: center;
   }
-  .owl-carousel .owl-item img{
+  .mobile-nav-toggle {
+    top: 2px;
+  }
+  .owl-carousel .owl-item img {
     width: 100%;
   }
   #header {
@@ -2202,8 +2206,8 @@ button {
   }
   #relative {
     background: white;
-    left: 10px;
-    width: 0px;
+    left: -26px;
+    width: 368px;
     top: 0px;
   }
   .section-title h2 {
@@ -2283,7 +2287,7 @@ button {
       width: 318px;
     }
     .imgcenter {
-      width: 100%;
+      width: 110%;
     }
   }
   @media (max-width: 992px) {
