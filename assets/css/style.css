@@ -2075,8 +2075,9 @@ button {
   .mobile-nav-toggle{
     top:2px;
   }
-
-
+  .owl-carousel .owl-item img{
+    width: 100%;
+  }
   #header {
     background: black;
     transition: all 0.5s;
