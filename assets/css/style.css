@@ -2315,7 +2315,7 @@ button {
     margin-top: 20px;
     text-align: center;
     height: 200px;
-    margin-left: 135px;
+    margin-left: 160px;
   }
   .title_a {
     margin-right: 163px;
@@ -2325,13 +2325,13 @@ button {
     color: white;
     margin-bottom: 22px;
     text-align: center;
-    margin-left: -41px;
+    margin-left: -60px;
   }
   .description_initial {
     display: block;
     width: 90%;
     height: 70px;
-    margin-left: -78px;
+    margin-left: -80px;
   }
   .opticaAbout {
     width: 350px;
@@ -2437,6 +2437,7 @@ button {
     #hero {
       margin-bottom: 0;
       height: auto;
+      height: 318px;
     }
     #hero .container {
       padding-bottom: 63px;
