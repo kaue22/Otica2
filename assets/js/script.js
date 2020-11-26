@@ -44,5 +44,5 @@ animeScroll();
 if(target.length) {
   window.addEventListener('mousemove', debounce(function() {
     animeScroll();
-  }, 100));
+  }, 50));
 }
