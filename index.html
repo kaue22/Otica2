@@ -85,7 +85,7 @@
 
     <img class="mySlides" src="assets/img/banner/slide-gabyoptica3-2195x843.png">
 
-    
+
   </section><!-- End Hero -->
 
 
@@ -160,16 +160,18 @@
         </div>
        
           -->
-        <picture>
-          <source srcset="assets/img/29min-responsivo.png" class="img-fluid" data-toggle="modal"
-            data-target="#modalCond" media="(max-width: 800px)">
 
+        <picture>
+
+          <source srcset="assets/img/29min-responsivo.png" class="img-fluid" id="teste" data-toggle="modal" data-target="#modalCond"
+            media="(max-width: 1000px)">
           <img srcset="assets/img/29min.png" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
-            alt="Imagem de banner do site">
-          <img srcset="assets/img/30min.-1024x400.jpg" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
-            alt="Imagem de banner do site">
+            alt="Imagem de banner do site" media="(min-width: 1000px)">
+          <img srcset="assets/img/oculos1.png" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
+            alt="Imagem de banner do site" media="(min-width: 1000px)">
           <img srcset="assets/img/estacionamento-gabyoptica.png" class="mySlidesMid" data-toggle="modal"
-            data-target="#modalCond" alt="Imagem de banner do site">
+            data-target="#modalCond" alt="Imagem de banner do site" media="(min-width: 1000px)">
+
         </picture>
 
         <!-- Modal -->
@@ -834,7 +836,7 @@
       console.log(x);
       for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
-        console.log(x[i].style.display )
+        console.log(x[i].style.display)
       }
       slideIndex++;
       if (slideIndex > x.length) { slideIndex = 1 }

@@ -2148,6 +2148,11 @@ button {
   .mySlides {
     width: 100%;
   }
+  #counts {
+    /* background:#ED3237;*/
+    background: white;
+    margin-left:-70px;
+  }
   #services {
     background: black;
     padding: 30px 0;
@@ -2394,6 +2399,9 @@ button {
     padding: 10px;
     width: 100%;
     box-shadow: #CC9F04 1px 1px, #CC9F04 2px 2px, #CC9F04 3px 3px, #CC9F04 4px 4px, #CC9F04 5px 5px, #CC9F04 6px 6px, #CC9F04 7px 7px, #CC9F04 8px 8px, #CC9F04 9px 9px, #CC9F04 10px 10px, #CC9F04 11px 11px, #CC9F04 12px 12px, #CC9F04 13px 13px, #CC9F04 14px 14px, #CC9F04 15px 15px, #CC9F04 16px 16px, #CC9F04 17px 17px, #CC9F04 18px 18px, #CC9F04 19px 19px, #CC9F04 20px 20px, #CC9F04 21px 21px, #CC9F04 22px 22px, #CC9F04 23px 23px, #CC9F04 24px 24px, #CC9F04 25px 25px, #CC9F04 26px 26px, #CC9F04 27px 27px, rgba(1, 163, 164, .05) 28px 28px, rgba(1, 163, 164, .04) 29px 29px, #CC9F04 30px 30px, #CC9F04 31px 31px, #CC9F04 32px 32px, #CC9F04 33px 33px, #CC9F04 34px 34px, #CC9F04 35px 35px, #CC9F04 36px 36px, #CC9F04 37px 37px, #CC9F04 38px 38px, #CC9F04 39px 39px;
+  }
+  .teste{
+    max-width: 1px;
   }
 }
 
