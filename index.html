@@ -36,7 +36,7 @@
 </head>
 
 <body>
- 
+
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex">
@@ -85,7 +85,7 @@
 
     <img class="mySlides" src="assets/img/banner/slide-gabyoptica3-2195x843.png">
 
-    <source srcset="assets/img/banner/slide-gabyoptica.png" class="img-fluid">
+    
   </section><!-- End Hero -->
 
 
@@ -128,13 +128,13 @@
               </p>
             </div>
 
-            <div class="icon-box" >
+            <div class="icon-box">
               <div class="icon" id="iconB"><i class="fas fa-house-user"></i></div>
               <h4 class="title_a">Ambiente</a></h4>
               <p class="description_initial">Ambiente moderno e climatizado, mais conforto no atendimento.</p>
             </div>
 
-            <div class="icon-box" >
+            <div class="icon-box">
               <div class="icon" id="iconC"><i class="fas fa-glasses"></i></div>
               <h4 class="title_a">Produto</a></h4>
               <p class="description_initial">Todos os produtos de qualidade com certificado de garantia de 1 ano.</p>
@@ -163,10 +163,13 @@
         <picture>
           <source srcset="assets/img/29min-responsivo.png" class="img-fluid" data-toggle="modal"
             data-target="#modalCond" media="(max-width: 800px)">
-          <source srcset="assets/img/29min.png" class="img-fluid" data-toggle="modal" data-target="#modalCond"
-            media="(max-width: 1400px)">
-          <img srcset="assets/img/29min.png" class="img-fluid" data-toggle="modal" data-target="#modalCond"
+
+          <img srcset="assets/img/29min.png" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
             alt="Imagem de banner do site">
+          <img srcset="assets/img/30min.-1024x400.jpg" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
+            alt="Imagem de banner do site">
+          <img srcset="assets/img/estacionamento-gabyoptica.png" class="mySlidesMid" data-toggle="modal"
+            data-target="#modalCond" alt="Imagem de banner do site">
         </picture>
 
         <!-- Modal -->
@@ -671,7 +674,7 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0" id = "local">
+          <div class="col-lg-8 mt-5 mt-lg-0" id="local">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
@@ -828,8 +831,10 @@
     function carousel() {
       var i;
       var x = document.getElementsByClassName("mySlides");
+      console.log(x);
       for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
+        console.log(x[i].style.display )
       }
       slideIndex++;
       if (slideIndex > x.length) { slideIndex = 1 }
@@ -837,6 +842,26 @@
       setTimeout(carousel, 3500); // Change image every 2 seconds
     }
   </script>
+
+
+  <script type="text/javascript">
+
+    var slideIndexMid = 0;
+    carouselMid();
+
+    function carouselMid() {
+      var i;
+      var y = document.getElementsByClassName("mySlidesMid");
+      for (i = 0; i < y.length; i++) {
+        y[i].style.display = "none";
+      }
+      slideIndexMid++;
+      if (slideIndexMid > y.length) { slideIndexMid = 1 }
+      y[slideIndexMid - 1].style.display = "block";
+      setTimeout(carouselMid, 3500); // Change image every 2 seconds
+    }
+  </script>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
   <script>
