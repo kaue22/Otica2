@@ -167,8 +167,8 @@
             data-target="#modalCond" media="(max-width: 1000px)">
           <img srcset="assets/img/29min.png" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
             alt="Imagem de banner do site" media="(min-width: 1000px)">
-            <img srcset="assets/img/oculos1-1024x400px.png" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
-            alt="Imagem de banner do site" media="(min-width: 1000px)">
+          <img srcset="assets/img/oculos1-1024x400px.png" class="mySlidesMid" data-toggle="modal"
+            data-target="#modalCond" alt="Imagem de banner do site" media="(min-width: 1000px)">
           <img srcset="assets/img/estacionamento-gabyoptica.png" class="mySlidesMid" data-toggle="modal"
             data-target="#modalCond" alt="Imagem de banner do site" media="(min-width: 1000px)">
 
@@ -419,9 +419,9 @@
       <div class="containerTechlab">
         <div class="boxTechLab" id="direita">
           <picture>
-          <source srcset="assets/img/techlab2-responsive.png" class="img-fluid" id="teste" data-toggle="modal"
-          data-target="#modalCond" media="(max-width: 1000px)">
-          <img class="imgcenter" src="assets/img/techlab2.png" alt="" srcset="">
+            <source srcset="assets/img/techlab2-responsive.png" class="img-fluid" id="teste" data-toggle="modal"
+              data-target="#modalCond" media="(max-width: 1000px)">
+            <img class="imgcenter" src="assets/img/techlab2.png" alt="" srcset="">
           </picture>
         </div>
         <div class="boxTechLab" id="esquerda">
@@ -888,29 +888,29 @@
    */
 
 
-        var controller = new ScrollMagic.Controller();
-     
-         var tl = new TimelineMax();
-      
-         tl.staggerFrom(".item", 1.5, {
-           scale: 0,
-           opacity: 0
-         });
-       
-         var scene = new ScrollMagic.Scene({
-           triggerElement: "#services",
-           duration: "80%",
-           triggerHook: 0.50,
-         //  offset: 50, // move trigger to center of element
-							reverse: false // only do once
-           
-         })
-           
-           .setTween(tl)
-           .addTo(controller);
-   
-       
-   
+    var controller = new ScrollMagic.Controller();
+
+    var tl = new TimelineMax();
+
+    tl.staggerFrom(".item", 1.5, {
+      scale: 0,
+      opacity: 0
+    });
+
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#services",
+      duration: "80%",
+      triggerHook: 0.50,
+      //  offset: 50, // move trigger to center of element
+      reverse: false // only do once
+
+    })
+
+      .setTween(tl)
+      .addTo(controller);
+
+
+
     // build scene
 
   </script>
