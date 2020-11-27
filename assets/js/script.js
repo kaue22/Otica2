@@ -26,7 +26,8 @@ const debounce = function(func, wait, immediate) {
 const target = document.querySelectorAll('[data-anime]');
 console.log(target)
 const animationClass = 'animate';
-
+console.log("animationClass")
+console.log(animationClass)
 function animeScroll() {
   const windowTop = window.pageYOffset + ((window.innerHeight * 2) / 4);
   console.log(windowTop)
@@ -40,7 +41,8 @@ function animeScroll() {
 animeScroll();
 
 if(target.length) {
-  window.addEventListener('scroll', debounce(function() {
+ window.addEventListener('scroll', debounce(function() {
     animeScroll();
   }, 200));
+  
 }

@@ -25,16 +25,17 @@
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
-
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
 
   <!-- Template Main CSS File -->
 
   <link href="assets/css/style.css" rel="stylesheet">
-  
+  <link rel="stylesheet" href="assets/css/floating-wpp.css">
+  <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -48,8 +49,8 @@
         <i class="icofont-google-map"></i> Avenida Marechal Tito, 285 – São Miguel Paulista – São Paulo/SP
       </div>
       <div class="social-links">
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="https://www.facebook.com/gabyopticasp" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/gabyopticasp" class="instagram"><i class="icofont-instagram"></i></a>
       </div>
     </div>
   </div>
@@ -89,28 +90,29 @@
 
 
   </section><!-- End Hero -->
-
+  
 
   <main id="main">
 
     <section id="about" class="about" >
       
       <div class="container-fluid-about">
-        
+     
         <div class="rowAbout" >
-
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch">
+        
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch wow bounceInUp">
             <a href="https://www.youtube.com/watch?v=LQ-CMhg1J38&feature=youtu.be" class="venobox play-btn mb-4"
               data-vbtype="video" data-autoplay="true"></a>
           </div>
-
+         
           <div
             class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-
+            
             <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
              
-              <h3>GabyÓptica</h3>
-
+              <h3 class="wow bounce">GabyÓptica</h3>
+              
+              
               <p class="opticaAbout">
 
                 A Gaby Óptica, tem o compromisso com qualidade, por isso trabalha com os melhores fornecedores do
@@ -128,32 +130,32 @@
                 Venha conferir as melhores ofertas, aceitamos cartões de crédito.
 
               </p>
-
+         
             </div>
 
-            <div class="icon-box">
+            <div class="icon-box wow bounce">
               <div class="icon" id="iconA"><i class="far fa-eye"></i></div>
               <h4 class="title_a">Responsábilidade</a></h4>
               <p class="description_initial">Responsável técnico sempre presente e consultores altamente capacitados.
               </p>
             </div>
 
-            <div class="icon-box">
+            <div class="icon-box wow bounce">
               <div class="icon" id="iconB"><i class="fas fa-house-user"></i></div>
               <h4 class="title_a">Ambiente</a></h4>
               <p class="description_initial">Ambiente moderno e climatizado, mais conforto no atendimento.</p>
             </div>
 
-            <div class="icon-box">
+            <div class="icon-box wow bounce">
               <div class="icon" id="iconC"><i class="fas fa-glasses"></i></div>
               <h4 class="title_a">Produto</a></h4>
               <p class="description_initial">Todos os produtos de qualidade com certificado de garantia de 1 ano.</p>
             </div>
 
           </div>
-
+       
         </div>
-        </blockquote>
+  
       </div>
     </section><!-- End About Section -->
 
@@ -814,8 +816,8 @@
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.facebook.com/gabyopticasp" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/gabyopticasp" class="instagram"><i class="bx bxl-instagram"></i></a>
         </div>
       </div>
     </section>
@@ -835,6 +837,7 @@
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  
   <script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
   <script src="https://kit.fontawesome.com/1ef9692212.js" crossorigin="anonymous"></script>
 
@@ -845,8 +848,9 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/script.js"></script>
   <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-  <link rel="stylesheet" href="assets/css/floating-wpp.css">
+  
   <script type="text/javascript" src="assets/js/floating-wpp.js"></script>
+  <script type="text/javascript" src="assets/js/wow.js"></script>
   
 
   <script type="text/javascript">
@@ -953,7 +957,7 @@
   </script>
 
   <script>
-    function typeWriter(elemento) {
+  /*  function typeWriter(elemento) {
       const textoArray = elemento.innerHTML.split('');
       elemento.innerHTML = '';
       textoArray.forEach((letra, i) => {
@@ -972,32 +976,11 @@
 
     const titulo = document.querySelector('h3');
     
-    typeWriter(titulo);
+    typeWriter(titulo);*/
   </script>
 
+<script>new WOW().init();</script>
 
-<script>
-  function typeWriter2(elemento) {
-    const textoArray = elemento.innerHTML.split('');
-    elemento.innerHTML = '';
-    textoArray.forEach((letra, i) => {
-      setTimeout(() => elemento.innerHTML += letra, 50 * i);
-    });
-  }
-
-  // Se estiver tendo problemas com performance, utilize o FOR loop como abaixo no local do forEach
-  // function typeWriter(elemento) {
-  //   const textoArray = elemento.innerHTML.split('');
-  //   elemento.innerHTML = '';
-  //   for(let i = 0; i < textoArray.length; i++) {
-  //     setTimeout(() => elemento.innerHTML += textoArray[i], 75 * i);
-  //   }
-  // }
-
-  const titulo2 = document.querySelector('p');
-  
-  typeWriter2(titulo2);
-</script>
 
 </body>
 
