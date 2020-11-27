@@ -2543,6 +2543,7 @@ button {
     background-attachment: fixed;
     height: 425px;
     width: 100vw;
+    margin-top: -200px;
   }
   #testimonials .section-title h2 {
     font-size: 46px;
@@ -2718,6 +2719,7 @@ button {
   }
   .imgcenter {
     width: 88%;
+    margin-top: 46px;
   }
   .about .icon-box .description {
     margin-left: 85px;
