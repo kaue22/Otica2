@@ -2704,8 +2704,8 @@ button {
     max-width: 1px;
   }
   .container {
-    width: 80%;
-    padding-right: 70px;
+    width: 63%;
+    padding-right: 22px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
@@ -2721,7 +2721,7 @@ button {
     width: 318px;
   }
   .imgcenter {
-    width: 100%;
+    width: 88%;
   }
   .about .icon-box .description {
     margin-left: 85px;
