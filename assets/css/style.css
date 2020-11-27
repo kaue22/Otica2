@@ -2358,8 +2358,8 @@ button {
   }
   .container {
     width: 80%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 70px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -2705,8 +2705,8 @@ button {
   }
   .container {
     width: 80%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 70px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
   }
