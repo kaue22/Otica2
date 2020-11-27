@@ -28,13 +28,11 @@ console.log(target)
 const animationClass = 'animate';
 
 function animeScroll() {
-  const windowTop = window.pageYOffset + ((window.innerHeight * 5) / 4);
- 
+  const windowTop = window.pageYOffset + ((window.innerHeight * 2) / 4);
+  console.log(windowTop)
   target.forEach(function(element) {
     if((windowTop) > element.offsetTop) {
       element.classList.add(animationClass);
-    } else {
-      element.classList.remove(animationClass);
     }
   })
 }

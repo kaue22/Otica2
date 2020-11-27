@@ -2435,10 +2435,6 @@ button {
   }
 }
 
-
-
-
-
 @media (max-width:845px) {
   .boxTechLab {
     height: 1070px;
@@ -2488,7 +2484,7 @@ button {
   #contact {
     background: #ED3237;
     padding: 0px 0;
-    height: 1470px;
+    height: 1530px;
   }
   #gallery {
     background: white;
@@ -2781,10 +2777,6 @@ button {
     border-color: #ffe600;
   }
 }
-
-
-
-
 
 @media (max-width: 767px) {
   header {
