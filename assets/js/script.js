@@ -24,13 +24,12 @@ const debounce = function(func, wait, immediate) {
 };
 
 const target = document.querySelectorAll('[data-anime]');
-console.log(target)
+
 const animationClass = 'animate';
-console.log("animationClass")
-console.log(animationClass)
+
 function animeScroll() {
   const windowTop = window.pageYOffset + ((window.innerHeight * 2) / 4);
-  console.log(windowTop)
+
   target.forEach(function(element) {
     if((windowTop) > element.offsetTop) {
       element.classList.add(animationClass);

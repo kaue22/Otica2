@@ -175,15 +175,14 @@
        
           -->
 
-        <picture>
+         
 
-       <source srcset="assets/img/29min-responsivo.png" class="mySlidesResp"  data-toggle="modal"
-            data-target="#modalCond" media="(max-width: 1000px)">
-            <source srcset="assets/img/oculos-responsive.png" class="mySlidesResp" data-toggle="modal"
-            data-target="#modalCond" media="(max-width: 1000px)">
-            <source srcset="assets/img/estacionamento-gabyoptica-responsive.png" class="mySlidesResp" data-toggle="modal"
-            data-target="#modalCond" media="(max-width: 1000px)">
-            
+
+        <picture>
+          
+           <source media="(max-width: 1000px)" srcset="assets/img/29min-responsivo.png" class="mySlidesResp">
+           
+        
           <img srcset="assets/img/29min.png" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
             alt="Imagem de banner do site" media="(min-width: 1000px)">
           <img srcset="assets/img/oculos1-1024x400px.png" class="mySlidesMid" data-toggle="modal"
@@ -909,6 +908,10 @@
       slideIndexMid++;
       if (slideIndexMid > y.length) { slideIndexMid = 1 }
       y[slideIndexMid - 1].style.display = "block";
+
+      console.log("slideIndexMid")
+    console.log(slideIndexMid)
+
       setTimeout(carouselMid, 3500); // Change image every 2 seconds
     }
   </script>
@@ -927,9 +930,17 @@
     console.log(y)
     for (i = 0; i < y.length; i++) {
       y[i].style.display = "none";
+
     }
     slideIndexResp++;
+
+
+ 
     if (slideIndexResp > y.length) { slideIndexResp = 1 }
+
+    console.log("slideIndexResp")
+    console.log(slideIndexResp)
+
     y[slideIndexResp - 1].style.display = "block";
     setTimeout(carouselResp, 3500); // Change image every 2 seconds
   }
