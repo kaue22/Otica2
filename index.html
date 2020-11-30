@@ -29,7 +29,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
-  
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
 
   <!-- Template Main CSS File -->
 
@@ -175,14 +175,10 @@
        
           -->
 
-         
-
-
         <picture>
-          
-           <source media="(max-width: 1000px)" srcset="assets/img/29min-responsivo.png" class="mySlidesResp">
-           
-        
+
+          <source srcset="assets/img/29min-responsivo.png" class="img-fluid" id="teste" data-toggle="modal"
+            data-target="#modalCond" media="(max-width: 1000px)">
           <img srcset="assets/img/29min.png" class="mySlidesMid" data-toggle="modal" data-target="#modalCond"
             alt="Imagem de banner do site" media="(min-width: 1000px)">
           <img srcset="assets/img/oculos1-1024x400px.png" class="mySlidesMid" data-toggle="modal"
@@ -908,44 +904,9 @@
       slideIndexMid++;
       if (slideIndexMid > y.length) { slideIndexMid = 1 }
       y[slideIndexMid - 1].style.display = "block";
-
-      console.log("slideIndexMid")
-    console.log(slideIndexMid)
-
       setTimeout(carouselMid, 3500); // Change image every 2 seconds
     }
   </script>
-
-  
-<script type="text/javascript">
-
-  var slideIndexResp = 0;
-  carouselResp();
-
-  function carouselResp() {
-    var i;
-    var y = document.getElementsByClassName("mySlidesResp");
-
-    console.log("Resp")
-    console.log(y)
-    for (i = 0; i < y.length; i++) {
-      y[i].style.display = "none";
-
-    }
-    slideIndexResp++;
-
-
- 
-    if (slideIndexResp > y.length) { slideIndexResp = 1 }
-
-    console.log("slideIndexResp")
-    console.log(slideIndexResp)
-
-    y[slideIndexResp - 1].style.display = "block";
-    setTimeout(carouselResp, 3500); // Change image every 2 seconds
-  }
-</script>
-
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
